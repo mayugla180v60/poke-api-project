@@ -9,7 +9,6 @@ const instance = axios.create({
 export const getPokemonData = async (pokeName) => {
   try {
     const response = await instance.get(pokeName);
-    console.log("response:", response.data);
     return response.data;
   } catch (error) {
     console.error(error);
