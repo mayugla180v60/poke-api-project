@@ -1,8 +1,9 @@
 import { defineConfig } from "vite"
 
 export default defineConfig({
+  base: "/api-test",
   build: {
-    base: "/api-test",
+    
     // root: "/api-test",
     assetsDir: "./assets",
     // rollupOptions: {
