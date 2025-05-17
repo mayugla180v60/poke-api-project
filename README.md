@@ -13,4 +13,4 @@ http://localhost:5173/
 
 # 実行方法
 1. npm install
-2. npm run dev
+2. npm run dev# poke-api-project
