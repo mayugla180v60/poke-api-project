@@ -108,7 +108,8 @@ input {
   gap: 10px;
 }
 
-.result {
+.result,
+.evolution {
   padding: 20px;
   border: 1px solid #fff;
   margin-top: 20px;
@@ -118,6 +119,9 @@ input {
 
 .result dl,
 .result dt,
-.result dd {
+.result dd,
+.evolution dl,
+.evolution dt,
+.evolution dd {
   margin: 0;
 }

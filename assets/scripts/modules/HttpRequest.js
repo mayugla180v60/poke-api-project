@@ -5,13 +5,15 @@ const instance = axios.create({
   timeout: 1000,
 });
 
-// instance
+// instance response.data
 export const getPokemonData = async (pokeName) => {
   try {
-    const response = await instance.get(pokeName); //fixed
+    const response = await instance.get(pokeName); 
     return response.data;
   } catch (error) {
     console.error(error);
     alert("Pokemon not found");
   }
 }
+
+
